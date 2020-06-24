@@ -1,0 +1,81 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+
+<title>Indicações de cursos</title>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+{% endblock %}
+
+{% block content %}
+
+    <div id="wrapper">
+      <h1>Indicações de cursos "mão-na-massa"</h1>
+    </div>
+
+    <section class="cursos">
+        <div class="cards-curso">
+            <div class="card-curso" id="starter">
+                <div class="card-curso__img-container">
+                    <img src="https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg" alt="imgjudas">
+                </div>
+                <div class="card-curso__content">
+                    <p> Curso Starter</p>
+                </div>
+                <div class="card-curso__info">
+                    <p>6 Módulos</p>
+                    <p class="card-curso__price">Grátis</p>
+                </div>
+            </div>
+
+            <div class="card-curso" id="launchbase">
+                <div class="card-curso__img-container">
+                    <img src="https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg" alt="launch">
+                </div>
+                <div class="card-curso__content">
+                    <p> Curso LaunchBase</p>
+                </div>
+                <div class="card-curso__info">
+                    <p>7 Módulos</p>
+                    <p class="card-curso__price">Pago</p>
+                </div>
+            </div>
+
+            <div class="card-curso" id="gostack">
+                <div class="card-curso__img-container">
+                    <img src="https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg" alt="imgjudas">
+                </div>
+                <div class="card-curso__content">
+                    <p> Curso GoStack</p>
+                </div>
+                <div class="card-curso__info">
+                    <p>8 Módulos</p>
+                    <p class="card-curso__price">Pago</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-curso-overlay">
+        <div class="modal-curso">
+            <a  class="close-curso-modal">
+                <i class="material-icons">
+                    close
+                </i>
+            </a>
+            <a class="maximize">
+                <span class="material-icons">
+                    maximize
+                </span>
+            </a>
+            <div class="modal-curso-content">
+                <iframe class="iframe-curso" src= "" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+   <script src="conteudo.js"></script>
+   {% endblock %}
