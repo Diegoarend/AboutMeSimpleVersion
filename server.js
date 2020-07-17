@@ -19,7 +19,7 @@ server.get("/", function (req,res) {
     const about = {
         avatar_url:"https://uploaddeimagens.com.br/images/002/724/530/full/perfi1.jpg?1592950330",
         name: "Diego Arend",
-        role:"Desenvolvedor Front-end Jr",
+        role:"Desenvolvedor Full-stack",
         links: [
             {name:"Github", url: "https://github.com/Diegoarend"},
             {name:"Linkedin", url: "https://www.linkedin.com/in/diegoarend/"},
